@@ -9,11 +9,11 @@ let questions = [
     ],
     answer: "myFunction()",
   },
-//   {
-//     promt:"The 'var' keyword declares a global variable, which means that the variable can be accessed from anywhere in the code. Answer True/False below.",
-//     options: ["True", "False"],
-//     answer: "True",
-//   },
+  {
+    prompt:"The 'var' keyword declares a global variable, which means that the variable can be accessed from anywhere in the code.",
+    options: ["True", "False", "It should be the 'let' keyword", "Unsure"],
+    answer: "True",
+  },
   {
     prompt: "How does a for loop start?",
     options: [
@@ -35,11 +35,41 @@ let questions = [
     options: ["method", "assignment operator", "letiable", "string"],
     answer: "letiable",
   },
-//   {
-//     promt:"The 'let' keyword declares a local variable. Answer True/False below.",
-//     options: ["True", "False"],
-//     answer: "True",
-//   },
+  {
+    prompt: "The 'let' keyword declares a local variable.",
+    options: ["True", "False", "It should be the 'var' keyword", "Unsure"],
+    answer: "True",
+  },
+  {
+    prompt: "What is the output of the following code? console.log(3 + 2 + '7');",
+    options: ["327", "57", "Will return an error", "12"],
+    answer: "57",
+  },
+  {
+    prompt: "Are Functions Objects in JavaScript?",
+    options: ["Yes", "No", "Depends on the circumstances", "Unsure"],
+    answer: "Yes",
+  },
+  {
+    prompt: "Double equals (==) is used to compare values with no regard for types, and triple equals (===) is used to compare values while also taking type into consideration.",
+    options: ["True", "False", "It should be the the opposite way around", "Unsure"],
+    answer: "True",
+  },
+  {
+    prompt: "What does NaN stand for?",
+    options: ["Number After Number", "Not a Number", "Numbers are null", "0"],
+    answer: "Not a Number",
+  },
+  {
+    prompt: "What Are the Looping Structures in JavaScript?",
+    options: ["For loops", "While loops", "Do-while loops", "All of the options are correct"],
+    answer: "All of the options are correct",
+  },
+  {
+    prompt: "Is JavaScript Case-Sensitive?",
+    options: ["Yes", "No", "Depends on the circumstances", "Unsure"],
+    answer: "Yes",
+  },
 ];
 
 // Get Dom Elements
