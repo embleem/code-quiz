@@ -10,7 +10,8 @@ let questions = [
     answer: "myFunction()",
   },
   {
-    prompt:"The 'var' keyword declares a global variable, which means that the variable can be accessed from anywhere in the code.",
+    prompt:
+      "The 'var' keyword declares a global variable, which means that the variable can be accessed from anywhere in the code.",
     options: ["True", "False", "It should be the 'let' keyword", "Unsure"],
     answer: "True",
   },
@@ -41,7 +42,8 @@ let questions = [
     answer: "True",
   },
   {
-    prompt: "What is the output of the following code? console.log(3 + 2 + '7');",
+    prompt:
+      "What is the output of the following code? console.log(3 + 2 + '7');",
     options: ["327", "57", "Will return an error", "12"],
     answer: "57",
   },
@@ -51,8 +53,14 @@ let questions = [
     answer: "Yes",
   },
   {
-    prompt: "Double equals (==) is used to compare values with no regard for types, and triple equals (===) is used to compare values while also taking type into consideration.",
-    options: ["True", "False", "It should be the the opposite way around", "Unsure"],
+    prompt:
+      "Double equals (==) is used to compare values with no regard for types, and triple equals (===) is used to compare values while also taking type into consideration.",
+    options: [
+      "True",
+      "False",
+      "It should be the the opposite way around",
+      "Unsure",
+    ],
     answer: "True",
   },
   {
@@ -62,7 +70,12 @@ let questions = [
   },
   {
     prompt: "What Are the Looping Structures in JavaScript?",
-    options: ["For loops", "While loops", "Do-while loops", "All of the options are correct"],
+    options: [
+      "For loops",
+      "While loops",
+      "Do-while loops",
+      "All of the options are correct",
+    ],
     answer: "All of the options are correct",
   },
   {
@@ -72,7 +85,7 @@ let questions = [
   },
 ];
 
-// Get Dom Elements
+// Dom Elements
 
 let questionsEl = document.querySelector("#questions");
 let timerEl = document.querySelector("#timer");
