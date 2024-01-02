@@ -56,6 +56,13 @@ Welcome to Code Quiz – a fun and challenging way to test your basic knowledge 
    - [GitHub Flow Guide](https://guides.github.com/introduction/flow/)
    - [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
+6. **Stack Overflow Help**
+    - [Stack Overflow Question Answered](https://stackoverflow.com/questions/72721724/trying-to-make-a-coding-quiz-with-javascript)
+
+7. **Code Review Help**
+    - [Code Review Question Help](https://codereview.stackexchange.com/questions/100562/simple-javascript-quiz)
+
+    
 ## License
 MIT License
 
