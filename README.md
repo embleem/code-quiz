@@ -1,68 +1,63 @@
-# code-quiz
-A quiz made using JavaScript, HTML and CSS designed to test basic coding knowledge for front-end developers.
+# Code Quiz
 
-## Description
+## Introduction
+Welcome to Code Quiz – a fun and challenging way to test your basic knowledge of front-end development! This quiz is designed for aspiring and experienced front-end developers to assess their proficiency in HTML, JavaScript, and CSS. Whether you're looking to brush up on your skills or prove your expertise, Code Quiz is the perfect tool for you.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+## How to Play
+1. **Setup**: Clone or download the Code Quiz repository to your local machine.
+2. **Open Index.html**: Launch the quiz by opening the `index.html` file in your preferred web browser.
+3. **Answer Questions**: The quiz consists of a series of multiple-choice questions. Read each question carefully and select the most appropriate answer.
+4. **Score Tracking**: Your score will be calculated in real-time as you answer questions. The quicker you answer, the higher your score!
+5. **Completion**: After answering all the questions, you'll receive your final score along with feedback on correct and incorrect answers.
 
 ## Features
+- **Timer**: A countdown timer adds an element of urgency, challenging you to think on your feet.
+- **Interactive Interface**: The quiz boasts a user-friendly interface that enhances the overall experience.
+- **Responsive Design**: Code Quiz is optimized for various screen sizes, ensuring a seamless experience on both desktop and mobile devices.
 
-If your project has a lot of features, list them here.
+## Technologies Used
+- **HTML**: The structure and layout of the quiz.
+- **CSS**: Styling elements for an appealing and user-friendly design.
+- **JavaScript**: The logic behind the quiz, including question generation, scoring, and timer functionality.
 
-## How to Contribute
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/embleem/code-quiz.git
+2. Open "index.html" in your browser
+3. Start playing / editing!
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+![filestructure](assets/img/code-quiz-filestructure.png)
 
-## Tests
+## Usage
+1. Or go to the website where it is deployed at: https://embleem.github.io/code-quiz/
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+![frontpageofsite](assets/img/quiz-front-page.png)
+
+## Acknowledgements
+With help from:
+Rockey Willemse
+
+## Resources 
+1. **MDN Web Docs (Mozilla Developer Network)**
+   - [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+   - [CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+   - [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+
+2. **W3Schools**
+   - [HTML Quiz Tutorial](https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML)
+   - [CSS Quiz Tutorial](https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS)
+   - [JavaScript Quiz Tutorial](https://www.w3schools.com/quiztest/quiztest.asp?qtest=JavaScript)
+
+3. **Codecademy**
+   - [Interactive Web Development Courses](https://www.codecademy.com/learn/paths/web-development)
+
+4. **JavaScript Timer Functions**
+   - [Countdown Timer in JavaScript](https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/)
+
+5. **Git and GitHub Documentation**
+   - [GitHub Flow Guide](https://guides.github.com/introduction/flow/)
+   - [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+
+## License
+MIT License
